@@ -1,0 +1,38 @@
+{
+  "intents": [
+    {
+      "intent": "ThinuIntent",
+      "slots": [
+        {
+          "name": "time",
+          "type": "AMAZON.TIME"
+        },
+        {
+          "name": "place",
+          "type": "LIST_OF_PLACES"
+        },
+        {
+          "name": "food",
+          "type": "AMAZON.Food"
+        },
+        {
+          "name": "person",
+          "type": "LIST_OF_PERSONS"
+        },
+        {
+          "name": "meal",
+          "type": "LIST_OF_MEALS"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

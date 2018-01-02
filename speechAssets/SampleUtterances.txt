@@ -1,0 +1,7 @@
+ThinuIntent {food}
+ThinuIntent {meal}
+ThinuIntent {place}
+ThinuIntent {person}
+ThinuIntent {person} had {food}
+ThinuIntent {food} for {meal}
+ThinuIntent {person} had {food} for {meal} at {place} {time}
